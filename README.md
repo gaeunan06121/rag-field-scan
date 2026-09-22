@@ -4,8 +4,7 @@
 (작업을 다 마친 뒤 한 줄로 채우기 — 지금은 비워둠)
 
 ## 배포 URL
-https://<너의-깃헙아이디>.github.io/consulting-ai-finance/
-
+https://gaeunan06121.github.io/rag-field-scan/ 
 ## 출발 질문
 금융회사가 AI로 바뀔 때 컨설턴트는 어떤 질문을 받게 될까?
 
