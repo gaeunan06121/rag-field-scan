@@ -1,10 +1,11 @@
 # consulting-ai-finance
 
 ## 결론
-(작업을 다 마친 뒤 한 줄로 채우기 — 지금은 비워둠)
+금융권 AI 도입의 실제 병목은 최신 모델이 아니라 데이터 거버넌스와 조직의 역할 재설계 속도이며, 컨설턴트의 역할은 규제를 "문서로 통과"시키는 것이 아니라 실제 운영에서 증빙 가능한 거버넌스를 설계하는 쪽으로 옮겨가고 있다.
 
 ## 배포 URL
-https://gaeunan06121.github.io/rag-field-scan/ 
+https://gaeunan06121.github.io/rag-field-scan/
+
 ## 출발 질문
 금융회사가 AI로 바뀔 때 컨설턴트는 어떤 질문을 받게 될까?
 
