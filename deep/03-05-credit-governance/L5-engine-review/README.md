@@ -8,7 +8,9 @@
 - `answer-key.sha256` — 정답표의 해시. 정답표 자체는 저장소 밖(리즈 컴퓨터)에 보관
 - `L5-scoring.md` — 리즈가 정답표로 채점한 표
 - `engine-selection-rule.md` — 채점 결과로 정한 엔진 선택 규칙
-- 지시문: `../prompts/L5-review.md`, `../prompts/L5-compare.md`
+- 지시문: `L5-review.md`(검토), `L5-compare.md`(비교)
+- 실제로 붙여넣은 입력: `L5-paste-all.md`(검토 엔진 3개 공통), `L5-compare-paste.md`(비교 엔진, 엔진 이름 지움)
+- 실행한 엔진: A Claude(새 채팅) · B DeepSeek(웹) · C Qwen3.7-Plus(웹) · 비교 Gemini(웹). 계획했던 ChatGPT·Trae·Kimi가 막힌 경위는 `L5-scoring.md` 4절
 
 ## 정답표 격리
 - 정답표는 함정을 심은 직후 해시를 남기고 저장소 밖에 둔다. 최종 점검 뒤 공개하면 `shasum -a 256 L5-answer-key.md` 결과가 `answer-key.sha256`과 같은지로 "실험 중에 정답을 바꾸지 않았다"를 확인할 수 있다.
